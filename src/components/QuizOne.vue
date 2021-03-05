@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="QuizOne">
         <!-- navigation -->
         <nav class="navbar navbar-expand-sm navbar-light fixed-top">
             <ul class="navbar-nav ml-auto">
@@ -10,21 +10,21 @@
         </nav>
         <!-- contents -->
         <div class="home-wrapper">
-             <h1 class="home-title">Quiz</h1>
-             <div class="home-description"></div>
+             <h1 class="question">Question 1</h1>
+             <div class="answer"></div>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-    name: "Home"
+    name: 'QuizOne'
 }
 </script>
 
 <style scoped>
 
-.home {
+.QuizOne {
     width: 100vw;
     height: 100vh;
     display: flex;
